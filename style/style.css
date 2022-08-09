@@ -1,0 +1,409 @@
+@import url('http://fonts.cdnfonts.com/css/clash-display');
+@import url('http://fonts.cdnfonts.com/css/Monument-extended');
+
+:root {
+    --clr-neon: rgb(130, 197, 236);
+    --clr-bg: hsl(323 21% 16%);
+  }
+
+* {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    
+}
+
+nav {
+    width: 3vw;
+    height: 100vh;
+    background-color: #0082D6;
+    writing-mode: vertical-rl;
+    text-orientation: upright; 
+    padding-right: 1vh;
+    color: white;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 4vh;
+    font-weight: 500;
+    letter-spacing: px;
+    position: fixed;
+    z-index: 1;
+}
+
+marquee {
+    left: -97.5%;
+    color: white;
+    height: 100vh;  
+    position: fixed;  
+}
+
+main {
+    width: 48.5vw;
+    height: 100vh;
+    background-color: white ;
+    position: fixed;
+    word-wrap: break-word;
+    border: 1px solid black;
+    border-width: 0px 1px 1px 0px;
+}
+
+.rectangle {
+    top: 10vh;
+    left: 10vh;
+    width: 17vh;
+    height: 23vh;
+    border-radius: 4.5vh;
+    box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+  
+    background-color: var(--clr-neon);
+    background-color: var(--clr-neon);
+    box-shadow: 0 0 2em 0.5em var(--clr-neon);
+    border: var(--clr-neon) 0.125em solid;
+    color: white;
+    font-size: 20vh;
+    font-weight: 800;
+    position: fixed;
+}
+
+.d {
+    top: 10vh;
+    font-family: 'Monument Extended', sans-serif;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+    position: fixed;
+}
+
+.point {
+    color: #8ecaee;
+    top: 10vh;
+    left: 29vh;
+    position: fixed;
+}
+
+.courses {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    color: #8ecaee;
+    top: 10vh;
+    left: 33vh;
+    position: fixed;
+}
+
+.blackman {
+    background-color: #74B6E0;
+    background-size: contain;
+    top: 40vh;
+    height: 77vh;
+
+}
+
+img {
+    display: block;
+    width: 48.5vw;
+    height: 48.5vw;
+    position: fixed;
+}
+
+.blueDiv {
+    display: block;
+    width: 48.5vw;;
+    height: 48vw;
+    position: fixed;
+    background-color: #8ecaee;
+    opacity: .7;
+    position: fixed;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 10vh;
+    top: -34vh;
+    left: 2vh;
+    
+}
+
+#start{
+    background-color: #006EC2;
+    border: 1px solid #006EC2;
+    width: 13vw;
+    height: 6vw;
+    left:  36vh;
+    top: -25vh;
+    color: #006EC2;
+    font-family: Arial, sans-serif;
+    font-size: 1.5vw;
+    border-radius: 4vh;
+    background-color: white;
+    cursor: pointer;
+    }
+      
+ #start:hover {
+    opacity: 0.6;
+    }
+
+aside {
+    left: 48.5%;
+    width: 51.1vw;
+    background-color: white ;
+    overflow-x: hidden; 
+    padding: 5vh 5vh 0 5vh;
+}
+
+.dd {
+    color: #0083D6;
+    font-family: Arial, sans-serif;
+    font-size: 13vh;
+    left: 15vh;
+}
+
+.kk {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 13vh;
+    top: -15vh;
+    left: 22vh;
+}
+
+.kk2 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 13vh;
+    top: -15vh;
+    left: 19.5vh;
+}
+
+section {
+    left: 5vh;
+    background-color: #F0EEEE;
+    width: 90%;
+    padding: 2vh;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 4vh;
+    font-weight: 500;
+}
+
+h3 { 
+    top: -4.5vh;
+    left: 8vh
+}
+
+i {
+    padding-right: 3vh;
+}
+
+.card {
+    padding-bottom: 2vh;
+}
+
+.section2 {
+    margin-top: 10vh;
+}
+
+.blue {
+    color: #0083D6;
+}
+
+[class="fa-solid fa-person-booth"] {
+    color: #0083D6;
+}
+
+[class="fa-solid fa-graduation-cap"] {
+    color: #0083D6;
+}
+
+[class="fa-solid fa-people-group"] {
+    color: #0083D6;
+}
+
+legend {
+    margin-top: 10vh;
+    left: 5vh;
+    width: 90%;
+    padding: 2vh;
+    color: #006FC2;
+    font-family: Arial, sans-serif;
+    font-size: 3vh;
+    font-weight: 500;
+    border: 2.5px solid #006FC2;
+}
+
+.input2 {
+    display: block;
+    border: 1px solid #006FC2;
+    border-width: 0px 0px 2px 0px;
+    font-family: Arial, sans-serif;
+    font-size: 3vh;
+    font-weight: 500;
+    width: 90%;
+    margin: auto;
+    padding-bottom: -10vh;
+}
+
+.input2 .input2:active, .input2:hover, .input2:focus  {
+    outline: none;
+    border: 1px solid #006FC2;
+    border-width: 0px 0px 2px 0px;
+    font-family: Arial, sans-serif;
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+.input::-webkit-input-placeholder {
+    color: #006FC2;
+    font-family: Arial, sans-serif;  font-size: 3vh;
+    font-weight: 500;
+    font-size: 3vh;
+}
+
+
+.input2::-webkit-input-placeholder { 
+    color: #006FC2;
+    font-family: Arial, sans-serif;  font-size: 3vh;
+    font-weight: 500;
+    font-size: 3vh;
+}
+
+.padding {
+    padding-bottom: 2vh;
+}
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+.custom-checkbox+label {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    left: 4vh;
+    padding-bottom: 1vh;
+  }
+
+.custom-checkbox+label::before {
+    content: '';
+    display: block;
+    width: 1.5vh;
+    height: 1.5vh;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 3px solid #006FC2;
+    background-size: 50% 50%;
+  }
+
+  .custom-checkbox:checked+label::before {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='#0b76ef' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+  }
+
+  #go {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 3vh;
+    font-weight: 500;
+    width: 90%;
+    height: 5vh;
+    letter-spacing: 0.5vh;
+    color: white;
+    margin: auto;
+    padding-bottom: -10vh;
+    border-style: none;
+    background-color: #006FC2;
+    cursor: pointer;
+    }
+
+    #go:hover {
+     background-color: white;
+     color: #006FC2;
+     border: 3px solid #006FC2; 
+    }
+  
+    footer {
+    left: -10vh;
+    margin-top: 10vh;
+    width: 120%;
+    height: 30vh;
+    background-color: #0083D6;
+    }
+
+    #logos {
+    position: absolute;
+    width: 14vw;  
+    height: 2.2vw;
+    top: 20vh;
+    left: 10vh;
+    display: block;
+    }
+
+    .foot {
+    top: 5vh;
+    left: 9.5vh;
+    padding-bottom: 2vh;
+    font-family: Arial, sans-serif;
+    font-size: 4vh;
+    font-weight: 500;
+    color: white;
+    }
+    
+    .anchor {
+    top: -7.9vh;
+    text-decoration: none;
+    color: #fff;
+    font-size: 4vh;
+    font-weight: 500;
+    left: 70vh;
+    font-family: Arial, sans-serif;
+    font-size: 4vh;
+    }
+
+    
+
+    .cur {
+    position: absolute;
+    top: 21vh;
+    left: 82.9%;
+    z-index: 1;
+    }
+
+    .cur2 {
+    position: absolute;
+    top: 15.4vh;
+    left: 82.1%;
+    z-index: 1;
+    }
+    
+    .cur3 {
+    position: absolute;
+    top: 9.8vh;
+    left: 77.7%;
+    z-index: 1;
+    }
+
+    .cur4 {
+    position: absolute;
+    top: 3.8vh;
+    left: 81%;
+    z-index: 1;
+    }
+    
+    h4 {
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-size: 10vh;
+    font-weight: 500;
+    top: -10vh;
+    left: 32%;
+    color: #0083D6;
+    }
+    
+
